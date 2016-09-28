@@ -32,11 +32,11 @@ Exercise 3 - UNIX System Programming
 ## How to use:
 
 write_user app:
-	q - stop writing to kernel and quit the application.
+- q - stop writing to kernel and quit the application.
 
 read_user app:
-	q- close the video screen and quit the application.
-	1,2,....,0 keys - change the video
+- q- close the video screen and quit the application.
+- 1,2,....,0 keys - change the video
 
 ## Made By
 This application was created by Yoav Saroya (304835887) & Amit Shmuel (305213621) (All rights and etc are reserved!)
