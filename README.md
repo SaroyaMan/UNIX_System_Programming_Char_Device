@@ -1,7 +1,7 @@
 # UNIX_System_Programming_Char_Device
 This project is a char device that recieves frames and send them to any process who wants to read from it.
 <br>This project made for Exercise 3 - UNIX System Programming course Shenkar semester C (Summer).
-<br>Bonus implemented: Bonus date. (submitted before Oct 1st.
+<br>Bonus implemented: Bonus date (submitted before Oct 1st).
 
 ### Notes:
 - Please try to run it at least 2-3 times. the read_user sometimes flies on initializing.
