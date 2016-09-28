@@ -23,11 +23,11 @@ Exercise 3 - UNIX System Programming
 5. sudo rm /dev/read_char_dev
 	
 ## How to run:
-1. run the write_user.out application with up-to 10 arguments of video filenames.
+1. run the write_user.out application with up-to 10 arguments of video filenames.<br>
    Usage: .exe <video1> <video2>... <video10>
    Example: ./write_user.out movie.mp4 movie2.mp4
 2. run the read_user.out application.
-* - PLEASE quit first read_user app and only then quit write_user app.
+** - PLEASE quit first read_user app and only then quit write_user app.
 	
 ## How to use:
 
