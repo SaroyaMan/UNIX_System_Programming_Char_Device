@@ -9,24 +9,24 @@ Exercise 3 - UNIX System Programming
 - Please note that writing 5+ videos to kernel - decreases the performence.
 	
 ## Compile + insert the devices:
-Compile the project with 'make' command.
-sudo insmod write_chardev.ko
-sudo insmod read_chardev.ko
-sudo mknod /dev/write_char_dev c 101 0
-sudo mknod /dev/read_char_dev c 100 0
+1. Compile the project with 'make' command.
+2. sudo insmod write_chardev.ko
+3. sudo insmod read_chardev.ko
+4. sudo mknod /dev/write_char_dev c 101 0
+5. sudo mknod /dev/read_char_dev c 100 0
 	
 ## Clean + removing the devices:
-Clean the project and any other cruft with 'make clean' command.
-sudo rmmod read_chardev
-sudo rmmod write_chardev
-sudo rm /dev/write_char_dev
-sudo rm /dev/read_char_dev
+1. Clean the project and any other cruft with 'make clean' command.
+2. sudo rmmod read_chardev
+3. sudo rmmod write_chardev
+4. sudo rm /dev/write_char_dev
+5. sudo rm /dev/read_char_dev
 	
 ## How to run:
-1) run the write_user.out application with up-to 10 arguments of video filenames.
+1. run the write_user.out application with up-to 10 arguments of video filenames.
    Usage: .exe <video1> <video2>... <video10>
    Example: ./write_user.out movie.mp4 movie2.mp4
-2) run the read_user.out application.
+2. run the read_user.out application.
 * - PLEASE quit first read_user app and only then quit write_user app.
 	
 ## How to use:
