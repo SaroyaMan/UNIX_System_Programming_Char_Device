@@ -2,7 +2,7 @@
 This project is a char device that recieves frames and send them to any process who wants to read from it.
 Exercise 3 - UNIX System Programming
 
-## Notes:
+### Notes:
 	- Please try to run it at least 2-3 times. the read_user sometimes flies on initializing.
 	- We assumed that synchronizing the video and playing audio is not important to this exercise.
 	- We assumed that the resolution of the video is not important to this exercise.
