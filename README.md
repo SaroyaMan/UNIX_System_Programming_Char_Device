@@ -27,7 +27,7 @@ Exercise 3 - UNIX System Programming
    Usage: .exe <video1> <video2>... <video10>
    Example: ./write_user.out movie.mp4 movie2.mp4
 2. run the read_user.out application.
-<br> PLEASE quit first read_user app and only then quit write_user app.
+<br>**PLEASE quit first read_user app and only then quit write_user app.
 	
 ## How to use:
 
